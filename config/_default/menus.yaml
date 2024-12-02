@@ -26,3 +26,12 @@ main:
   - name: Teaching
     url: teaching/
     weight: 40
+  - name: Languages
+    weight: 50
+    children:
+      - name: English
+        url: /en/
+        weight: 1
+      - name: Spanish
+        url: /es/
+        weight: 2
