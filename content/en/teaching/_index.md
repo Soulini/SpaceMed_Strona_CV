@@ -1,6 +1,7 @@
+
 ---
-title: Teaching
-summary: My courses
+title: Our Team
+summary: Meet the amazing team behind our success
 type: landing
 
 cascade:
@@ -10,14 +11,35 @@ cascade:
       show_breadcrumb: true
 
 sections:
-  - block: collection
-    id: teaching
+  - block: podium
+    id: main_team
     content:
-      title: Teaching
+      title: Our Leadership Team
+      description: Meet the key members driving our vision and success.
+      members:
+        - name: Alice Johnson
+          position: CEO
+          image: /images/alice.jpg
+          link: alice-johnson/
+        - name: Bob Smith
+          position: CTO
+          image: /images/bob.jpg
+          link: bob-smith/
+        - name: Clara Davis
+          position: COO
+          image: /images/clara.jpg
+          link: clara-davis/
+      design:
+        type: podium
+
+  - block: collection
+    id: all_team
+    content:
+      title: All Team Members
       filters:
         folders:
-          - teaching
-    design:
-      view: article-grid
-      columns: 2
+          - team
+      design:
+        view: list
+        columns: 1
 ---
