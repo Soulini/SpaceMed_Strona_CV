@@ -1,6 +1,6 @@
 ---
-title: Teaching
-summary: My courses
+title: Our Team
+summary: Meet our dedicated team
 type: landing
 
 cascade:
@@ -11,9 +11,9 @@ cascade:
 
 sections:
   - block: collection
-    id: teaching
+    id: our-team
     content:
-      title: Teaching
+      title: Our Team
       filters:
         folders:
           - teaching
