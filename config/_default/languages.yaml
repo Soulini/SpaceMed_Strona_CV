@@ -1,17 +1,14 @@
 
-# Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
-
-# Default language
 en:
   languageCode: en-us
   contentDir: content/en
-
-# Additional language
-es:
-  languageCode: es-es
-  contentDir: content/es
-  title: Spanish Site Title
+  title: English Website Title
   params:
-    description: Sitio web en español.
+    description: Site description in English...
+
+pl:
+  languageCode: pl-pl
+  contentDir: content/pl
+  title: Polish Website Title
+  params:
+    description: Opis strony po polsku...
