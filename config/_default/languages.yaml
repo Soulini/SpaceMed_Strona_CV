@@ -1,14 +1,14 @@
 
 en:
   languageCode: en-us
-  contentDir: en
+  contentDir: content/en
   title: English Website Title
   params:
     description: Site description in English...
 
 pl:
   languageCode: pl-pl
-  contentDir: pl
+  contentDir: content/pl
   title: Polish Website Title
   params:
     description: Opis strony po polsku...
